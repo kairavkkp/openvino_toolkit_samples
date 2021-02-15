@@ -1,0 +1,52 @@
+[ INFO ] Loading Inference Engine
+[ INFO ] Loading network files:
+	frozen_darknet_yolov3_model.xml
+	frozen_darknet_yolov3_model.bin
+[ INFO ] Device info:
+        CPU
+        MKLDNNPlugin version ......... 2.1
+        Build ........... 2021.1.0-1237-bece22ac675-releases/2021/1
+inputs number: 1
+input shape: [1, 3, 416, 416]
+input key: inputs
+[ INFO ] File was added: 
+[ INFO ]         snapwire-vw-fit-walking-16-feb0671a732844659662ec40cbc0dedd.jpeg
+[ WARNING ] Image snapwire-vw-fit-walking-16-feb0671a732844659662ec40cbc0dedd.jpeg is resized from (416, 416) to (416, 416)
+[ INFO ] Preparing input blobs
+[ INFO ] Batch size is 1
+[ INFO ] Preparing output blobs
+[ ERROR ] Can't find a DetectionOutput layer in the topology
+[ ERROR ] Output item should have 7 as a last dimension
+[ INFO ] Loading model to the device
+[ INFO ] Creating infer request and starting inference
+[ INFO ] Processing output blobs
+[0,0] element, prob = 0.32638    (399,316)-(530,381) batch id : 0
+[1,0] element, prob = 0.352569    (459,353)-(602,358) batch id : 0
+[2,0] element, prob = 0.394678    (584,519)-(814,437) batch id : 0
+[3,0] element, prob = 0.367584    (546,518)-(770,386) batch id : 0
+[4,0] element, prob = 0.44931    (751,513)-(698,344) batch id : 0
+[5,0] element, prob = 0.417709    (857,513)-(903,449) batch id : 0
+[6,0] element, prob = 0.328188    (877,532)-(890,420) batch id : 0
+[7,0] element, prob = 0.305376    (926,508)-(919,381) batch id : 0
+[8,0] element, prob = 0.344274    (922,490)-(1020,381) batch id : 0
+[9,0] element, prob = 0.532449    (921,435)-(1000,428) batch id : 0 WILL BE PRINTED!
+[10,0] element, prob = 0.584486    (1028,342)-(975,415) batch id : 0 WILL BE PRINTED!
+[11,0] element, prob = 0.426073    (1165,281)-(1047,414) batch id : 0
+[12,0] element, prob = 0.400386    (1048,325)-(926,445) batch id : 0
+[13,0] element, prob = 0.444833    (888,366)-(733,515) batch id : 0
+[14,0] element, prob = 0.449417    (739,489)-(640,430) batch id : 0
+[15,0] element, prob = 0.562706    (719,626)-(719,360) batch id : 0 WILL BE PRINTED!
+[16,0] element, prob = 0.594161    (627,614)-(789,488) batch id : 0 WILL BE PRINTED!
+[17,0] element, prob = 0.568742    (669,677)-(867,493) batch id : 0 WILL BE PRINTED!
+[18,0] element, prob = 0.592489    (716,569)-(907,494) batch id : 0 WILL BE PRINTED!
+[19,0] element, prob = 0.561508    (764,357)-(792,403) batch id : 0 WILL BE PRINTED!
+[20,0] element, prob = 0.458937    (712,292)-(698,332) batch id : 0
+[21,0] element, prob = 0.420684    (551,312)-(588,298) batch id : 0
+[22,0] element, prob = 0.353743    (502,269)-(505,252) batch id : 0
+[23,0] element, prob = 0.336195    (564,267)-(556,334) batch id : 0
+[24,0] element, prob = 0.318634    (511,353)-(741,370) batch id : 0
+[25,0] element, prob = 0.428935    (681,438)-(690,403) batch id : 0
+[ INFO ] Image snapwire-vw-fit-walking-16-feb0671a732844659662ec40cbc0dedd.bmp created!
+[ INFO ] Execution successful
+
+[ INFO ] This sample is an API example, for any performance measurements please use the dedicated benchmark_app tool
