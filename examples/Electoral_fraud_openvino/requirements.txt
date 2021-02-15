@@ -1,6 +1,6 @@
-opencv_python==4.5.1.48
 tensorflow==1.15.0
-openvino_python==2021.1
 numpy==1.16.3
+openvino_python==2021.1
+opencv_python==4.5.1.48
 openvino==2021.2
 Pillow==8.1.0
